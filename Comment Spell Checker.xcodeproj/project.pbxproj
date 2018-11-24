@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */; };
+		E3C03A2A21A95D5D0025C8F1 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C03A2921A95D5D0025C8F1 /* Demo.swift */; };
+		E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2B21A960E20025C8F1 /* demo.mov */; };
 		E3C63A4621A94BE7001B8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A4521A94BE7001B8CB4 /* AppDelegate.swift */; };
 		E3C63A4821A94BE7001B8CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A4721A94BE7001B8CB4 /* ViewController.swift */; };
-		E3C63A4A21A94BE8001B8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A4921A94BE8001B8CB4 /* Assets.xcassets */; };
-		E3C63A4D21A94BE8001B8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A4B21A94BE8001B8CB4 /* Main.storyboard */; };
 		E3C63A5921A94BE8001B8CB4 /* Comment_Spell_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A5821A94BE8001B8CB4 /* Comment_Spell_CheckerTests.swift */; };
+		E3C63A6621A94C28001B8CB4 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6521A94C28001B8CB4 /* HelpController.swift */; };
+		E3C63A6B21A94C3B001B8CB4 /* HelpContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6821A94C3B001B8CB4 /* HelpContentViewController.swift */; };
+		E3C63A6C21A94C3B001B8CB4 /* HelpSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6921A94C3B001B8CB4 /* HelpSourceViewController.swift */; };
+		E3C63A6D21A94C3B001B8CB4 /* HelpSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6A21A94C3B001B8CB4 /* HelpSplitViewController.swift */; };
+		E3C63A6F21A94C49001B8CB4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6E21A94C49001B8CB4 /* Model.swift */; };
+		E3C63A7121A94C50001B8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7021A94C50001B8CB4 /* Assets.xcassets */; };
+		E3C63A7321A94C80001B8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7221A94C80001B8CB4 /* Main.storyboard */; };
+		E3C63A7621A94C92001B8CB4 /* system_prefs_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */; };
+		E3C63A7E21A94CE7001B8CB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C63A7D21A94CE7001B8CB4 /* Cocoa.framework */; };
+		E3C63A8121A94CE7001B8CB4 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A8021A94CE7001B8CB4 /* SourceEditorExtension.swift */; };
+		E3C63A8321A94CE7001B8CB4 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A8221A94CE7001B8CB4 /* SourceEditorCommand.swift */; };
+		E3C63A8821A94CE7001B8CB4 /* Comment Spell Checker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3C63A7B21A94CE7001B8CB4 /* Comment Spell Checker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3C63A8E21A94CF6001B8CB4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A8D21A94CF6001B8CB4 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,19 +36,56 @@
 			remoteGlobalIDString = E3C63A4121A94BE7001B8CB4;
 			remoteInfo = "Comment Spell Checker";
 		};
+		E3C63A8621A94CE7001B8CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C63A3A21A94BE7001B8CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C63A7A21A94CE7001B8CB4;
+			remoteInfo = "Comment Spell Checker Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E3C63A8C21A94CE7001B8CB4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3C63A8821A94CE7001B8CB4 /* Comment Spell Checker Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = key_bindings_demo.mov; sourceTree = "<group>"; };
+		E3C03A2921A95D5D0025C8F1 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		E3C03A2B21A960E20025C8F1 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		E3C63A4221A94BE7001B8CB4 /* Comment Spell Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comment Spell Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C63A4521A94BE7001B8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C63A4721A94BE7001B8CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3C63A4921A94BE8001B8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3C63A4C21A94BE8001B8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3C63A4E21A94BE8001B8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C63A4F21A94BE8001B8CB4 /* Comment_Spell_Checker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Comment_Spell_Checker.entitlements; sourceTree = "<group>"; };
 		E3C63A5421A94BE8001B8CB4 /* Comment Spell CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comment Spell CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C63A5821A94BE8001B8CB4 /* Comment_Spell_CheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment_Spell_CheckerTests.swift; sourceTree = "<group>"; };
 		E3C63A5A21A94BE8001B8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C63A6521A94C28001B8CB4 /* HelpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		E3C63A6821A94C3B001B8CB4 /* HelpContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpContentViewController.swift; sourceTree = "<group>"; };
+		E3C63A6921A94C3B001B8CB4 /* HelpSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSourceViewController.swift; sourceTree = "<group>"; };
+		E3C63A6A21A94C3B001B8CB4 /* HelpSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSplitViewController.swift; sourceTree = "<group>"; };
+		E3C63A6E21A94C49001B8CB4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E3C63A7021A94C50001B8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SpellChecker/SpellChecker/Assets.xcassets; sourceTree = "<group>"; };
+		E3C63A7221A94C80001B8CB4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = system_prefs_demo.mov; sourceTree = "<group>"; };
+		E3C63A7B21A94CE7001B8CB4 /* Comment Spell Checker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comment Spell Checker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C63A7D21A94CE7001B8CB4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E3C63A8021A94CE7001B8CB4 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		E3C63A8221A94CE7001B8CB4 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		E3C63A8421A94CE7001B8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C63A8521A94CE7001B8CB4 /* Comment_Spell_Checker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Comment_Spell_Checker_Extension.entitlements; sourceTree = "<group>"; };
+		E3C63A8D21A94CF6001B8CB4 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +103,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C63A7821A94CE7001B8CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C63A7E21A94CE7001B8CB4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +119,8 @@
 			children = (
 				E3C63A4421A94BE7001B8CB4 /* Comment Spell Checker */,
 				E3C63A5721A94BE8001B8CB4 /* Comment Spell CheckerTests */,
+				E3C63A7F21A94CE7001B8CB4 /* Comment Spell Checker Extension */,
+				E3C63A7C21A94CE7001B8CB4 /* Frameworks */,
 				E3C63A4321A94BE7001B8CB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +130,7 @@
 			children = (
 				E3C63A4221A94BE7001B8CB4 /* Comment Spell Checker.app */,
 				E3C63A5421A94BE8001B8CB4 /* Comment Spell CheckerTests.xctest */,
+				E3C63A7B21A94CE7001B8CB4 /* Comment Spell Checker Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +140,12 @@
 			children = (
 				E3C63A4521A94BE7001B8CB4 /* AppDelegate.swift */,
 				E3C63A4721A94BE7001B8CB4 /* ViewController.swift */,
-				E3C63A4921A94BE8001B8CB4 /* Assets.xcassets */,
-				E3C63A4B21A94BE8001B8CB4 /* Main.storyboard */,
+				E3C63A6521A94C28001B8CB4 /* HelpController.swift */,
+				E3C63A6E21A94C49001B8CB4 /* Model.swift */,
+				E3C63A6721A94C3B001B8CB4 /* View */,
+				E3C63A7021A94C50001B8CB4 /* Assets.xcassets */,
+				E3C63A7221A94C80001B8CB4 /* Main.storyboard */,
+				E3C63A7421A94C92001B8CB4 /* Resources */,
 				E3C63A4E21A94BE8001B8CB4 /* Info.plist */,
 				E3C63A4F21A94BE8001B8CB4 /* Comment_Spell_Checker.entitlements */,
 			);
@@ -95,6 +161,47 @@
 			path = "Comment Spell CheckerTests";
 			sourceTree = "<group>";
 		};
+		E3C63A6721A94C3B001B8CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3C63A6821A94C3B001B8CB4 /* HelpContentViewController.swift */,
+				E3C63A6921A94C3B001B8CB4 /* HelpSourceViewController.swift */,
+				E3C63A6A21A94C3B001B8CB4 /* HelpSplitViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3C63A7421A94C92001B8CB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3C03A2B21A960E20025C8F1 /* demo.mov */,
+				E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */,
+				E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3C63A7C21A94CE7001B8CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C63A7D21A94CE7001B8CB4 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C63A7F21A94CE7001B8CB4 /* Comment Spell Checker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3C63A8021A94CE7001B8CB4 /* SourceEditorExtension.swift */,
+				E3C63A8221A94CE7001B8CB4 /* SourceEditorCommand.swift */,
+				E3C63A8D21A94CF6001B8CB4 /* Parser.swift */,
+				E3C03A2921A95D5D0025C8F1 /* Demo.swift */,
+				E3C63A8421A94CE7001B8CB4 /* Info.plist */,
+				E3C63A8521A94CE7001B8CB4 /* Comment_Spell_Checker_Extension.entitlements */,
+			);
+			path = "Comment Spell Checker Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -105,10 +212,12 @@
 				E3C63A3E21A94BE7001B8CB4 /* Sources */,
 				E3C63A3F21A94BE7001B8CB4 /* Frameworks */,
 				E3C63A4021A94BE7001B8CB4 /* Resources */,
+				E3C63A8C21A94CE7001B8CB4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3C63A8721A94CE7001B8CB4 /* PBXTargetDependency */,
 			);
 			name = "Comment Spell Checker";
 			productName = "Comment Spell Checker";
@@ -133,6 +242,23 @@
 			productReference = E3C63A5421A94BE8001B8CB4 /* Comment Spell CheckerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E3C63A7A21A94CE7001B8CB4 /* Comment Spell Checker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C63A8921A94CE7001B8CB4 /* Build configuration list for PBXNativeTarget "Comment Spell Checker Extension" */;
+			buildPhases = (
+				E3C63A7721A94CE7001B8CB4 /* Sources */,
+				E3C63A7821A94CE7001B8CB4 /* Frameworks */,
+				E3C63A7921A94CE7001B8CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comment Spell Checker Extension";
+			productName = "Comment Spell Checker Extension";
+			productReference = E3C63A7B21A94CE7001B8CB4 /* Comment Spell Checker Extension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +275,9 @@
 					E3C63A5321A94BE8001B8CB4 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = E3C63A4121A94BE7001B8CB4;
+					};
+					E3C63A7A21A94CE7001B8CB4 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -167,6 +296,7 @@
 			targets = (
 				E3C63A4121A94BE7001B8CB4 /* Comment Spell Checker */,
 				E3C63A5321A94BE8001B8CB4 /* Comment Spell CheckerTests */,
+				E3C63A7A21A94CE7001B8CB4 /* Comment Spell Checker Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -176,12 +306,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C63A4A21A94BE8001B8CB4 /* Assets.xcassets in Resources */,
-				E3C63A4D21A94BE8001B8CB4 /* Main.storyboard in Resources */,
+				E3C63A7621A94C92001B8CB4 /* system_prefs_demo.mov in Resources */,
+				E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */,
+				E3C63A7321A94C80001B8CB4 /* Main.storyboard in Resources */,
+				E3C63A7121A94C50001B8CB4 /* Assets.xcassets in Resources */,
+				E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E3C63A5221A94BE8001B8CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C63A7921A94CE7001B8CB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C63A6F21A94C49001B8CB4 /* Model.swift in Sources */,
+				E3C63A6D21A94C3B001B8CB4 /* HelpSplitViewController.swift in Sources */,
 				E3C63A4821A94BE7001B8CB4 /* ViewController.swift in Sources */,
+				E3C63A6C21A94C3B001B8CB4 /* HelpSourceViewController.swift in Sources */,
+				E3C63A6B21A94C3B001B8CB4 /* HelpContentViewController.swift in Sources */,
+				E3C63A6621A94C28001B8CB4 /* HelpController.swift in Sources */,
 				E3C63A4621A94BE7001B8CB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +353,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3C63A7721A94CE7001B8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C63A8121A94CE7001B8CB4 /* SourceEditorExtension.swift in Sources */,
+				E3C63A8321A94CE7001B8CB4 /* SourceEditorCommand.swift in Sources */,
+				E3C03A2A21A95D5D0025C8F1 /* Demo.swift in Sources */,
+				E3C63A8E21A94CF6001B8CB4 /* Parser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,18 +372,12 @@
 			target = E3C63A4121A94BE7001B8CB4 /* Comment Spell Checker */;
 			targetProxy = E3C63A5521A94BE8001B8CB4 /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E3C63A4B21A94BE8001B8CB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3C63A4C21A94BE8001B8CB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+		E3C63A8721A94CE7001B8CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C63A7A21A94CE7001B8CB4 /* Comment Spell Checker Extension */;
+			targetProxy = E3C63A8621A94CE7001B8CB4 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E3C63A5B21A94BE8001B8CB4 /* Debug */ = {
@@ -348,6 +498,7 @@
 		E3C63A5E21A94BE8001B8CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker/Comment_Spell_Checker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -367,6 +518,7 @@
 		E3C63A5F21A94BE8001B8CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker/Comment_Spell_Checker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +577,46 @@
 			};
 			name = Release;
 		};
+		E3C63A8A21A94CE7001B8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker Extension/Comment_Spell_Checker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Q28357BSU;
+				INFOPLIST_FILE = "Comment Spell Checker Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.velyan.Comment-Spell-Checker.Comment-Spell-Checker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		E3C63A8B21A94CE7001B8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker Extension/Comment_Spell_Checker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Q28357BSU;
+				INFOPLIST_FILE = "Comment Spell Checker Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.velyan.Comment-Spell-Checker.Comment-Spell-Checker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +643,15 @@
 			buildConfigurations = (
 				E3C63A6121A94BE8001B8CB4 /* Debug */,
 				E3C63A6221A94BE8001B8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C63A8921A94CE7001B8CB4 /* Build configuration list for PBXNativeTarget "Comment Spell Checker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C63A8A21A94CE7001B8CB4 /* Debug */,
+				E3C63A8B21A94CE7001B8CB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
