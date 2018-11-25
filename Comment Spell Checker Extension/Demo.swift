@@ -6,25 +6,32 @@
 //  Copyright © 2018 Velislava Yanchina. All rights reserved.
 //
 
-import XcodeKit
 
-/** A half-open range of text in a buffer. A range with equal start and end positons is used to indicate a point within the buffer, such as an insertion point. Otherwise, the range includes the character at the start position and excludes the character at the end position. The start and end may be improperly ordered transiently, but must be properly ordered before passing an XCSourceTextRange to other API. */
-open class SourceTextRange {
+
+
+
+
+
+
+
+
+
+/** This is a demo comment demonstrating auto correct. */
+open class Foo {
     
-    //The positon repersenting the start of the range.
-    open var start: XCSourceTextPosition
+    // This is a demo comment demonstrating auto correct.
+    open var this: String
     
-    /* The positon repersenting the end of the range; the character at this position is not included within the range. */
-    open var end: XCSourceTextPosition
+    /* This is a demo comment demonstrating auto correct. */
+    open var that: Int
     
-    ///  Returns a range with the given start and end positons.
-    ///  The start and end positions must be properly ordered.
+    /// This is a demo comment demonstrating auto correct.
     ///
-    /// - Parmeters:
-    ///   - start: A start position.
-    ///   - end: An end position.
-    public init(start: XCSourceTextPosition, end: XCSourceTextPosition ) {
-        self.start = start
-        self.end = end
+    /// - Parameters:
+    ///   - this: A this.
+    ///   - that: A that.
+    public init(this: String, that: Int ) {
+        self.this = this
+        self.that = that
     }
 }

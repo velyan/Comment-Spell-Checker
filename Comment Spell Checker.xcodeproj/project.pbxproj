@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E309ECE921AA90560091219D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E309ECE821AA90560091219D /* Assets.xcassets */; };
+		E364A51E21AAA51A00B501EE /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E364A51D21AAA51A00B501EE /* demo.mov */; };
 		E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */; };
 		E3C03A2A21A95D5D0025C8F1 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C03A2921A95D5D0025C8F1 /* Demo.swift */; };
-		E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2B21A960E20025C8F1 /* demo.mov */; };
 		E3C63A4621A94BE7001B8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A4521A94BE7001B8CB4 /* AppDelegate.swift */; };
 		E3C63A4821A94BE7001B8CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A4721A94BE7001B8CB4 /* ViewController.swift */; };
 		E3C63A5921A94BE8001B8CB4 /* Comment_Spell_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A5821A94BE8001B8CB4 /* Comment_Spell_CheckerTests.swift */; };
@@ -61,9 +61,9 @@
 
 /* Begin PBXFileReference section */
 		E309ECE821AA90560091219D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E364A51D21AAA51A00B501EE /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = key_bindings_demo.mov; sourceTree = "<group>"; };
 		E3C03A2921A95D5D0025C8F1 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
-		E3C03A2B21A960E20025C8F1 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		E3C63A4221A94BE7001B8CB4 /* Comment Spell Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comment Spell Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C63A4521A94BE7001B8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C63A4721A94BE7001B8CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		E3C63A7421A94C92001B8CB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E3C03A2B21A960E20025C8F1 /* demo.mov */,
+				E364A51D21AAA51A00B501EE /* demo.mov */,
 				E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */,
 				E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */,
 			);
@@ -307,7 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C63A7621A94C92001B8CB4 /* system_prefs_demo.mov in Resources */,
-				E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */,
+				E364A51E21AAA51A00B501EE /* demo.mov in Resources */,
 				E3C63A7321A94C80001B8CB4 /* Main.storyboard in Resources */,
 				E309ECE921AA90560091219D /* Assets.xcassets in Resources */,
 				E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */,

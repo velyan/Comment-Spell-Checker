@@ -25,10 +25,11 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         let tag = NSSpellChecker.uniqueSpellDocumentTag()
         
         for idx in indices {
-            guard var line = buffer.lines[idx] as? String else { continue }
+            guard let line = buffer.lines[idx] as? String else { continue }
             
             var range = NSRange(location: 0, length: 0)
             var startingIndex = 0
+            var correctedLine = line
             
             while range.location != NSNotFound {
                 range = spellChecker.checkSpelling(of: line,
@@ -39,22 +40,20 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
                                                    wordCount: nil)
                 
                 guard range.location != NSNotFound else { break }
-                
                 if let correction = spellChecker.correction(forWordRange: range,
                                                             in: line,
                                                             language: spellChecker.language(),
                                                             inSpellDocumentWithTag: tag) {
                     
                     guard let swiftRange = Range(range, in: line) else { continue }
-                    let corrected = line.replacingCharacters(in: swiftRange, with: correction)
-                    
-                    line = corrected
+                    let misspelled = line[swiftRange]
+                    correctedLine = correctedLine.replacingOccurrences(of: misspelled, with: correction)
                 }
                 
                 startingIndex = NSMaxRange(range)
             }
             
-            buffer.lines[idx] = line
+            buffer.lines[idx] = correctedLine
         }
         
         spellChecker.closeSpellDocument(withTag: tag)
