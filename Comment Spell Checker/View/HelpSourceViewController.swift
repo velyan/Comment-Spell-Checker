@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Mark
+//  Comment Spell Checker
 //
 //  Created by Velislava Yanchina on 10/20/16.
 //  Copyright © 2016 Velislava Yanchina. All rights reserved.

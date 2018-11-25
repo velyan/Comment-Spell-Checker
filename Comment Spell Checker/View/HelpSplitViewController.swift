@@ -1,6 +1,5 @@
 //
 //  HelpSplitViewController.swift
-//  Mark
 //
 //  Created by Velislava Yanchina on 10/24/16.
 //  Copyright © 2016 Velislava Yanchina. All rights reserved.

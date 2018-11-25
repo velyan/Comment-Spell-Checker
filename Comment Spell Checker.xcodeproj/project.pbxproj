@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E309ECE921AA90560091219D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E309ECE821AA90560091219D /* Assets.xcassets */; };
 		E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */; };
 		E3C03A2A21A95D5D0025C8F1 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C03A2921A95D5D0025C8F1 /* Demo.swift */; };
 		E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2B21A960E20025C8F1 /* demo.mov */; };
@@ -18,7 +19,6 @@
 		E3C63A6C21A94C3B001B8CB4 /* HelpSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6921A94C3B001B8CB4 /* HelpSourceViewController.swift */; };
 		E3C63A6D21A94C3B001B8CB4 /* HelpSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6A21A94C3B001B8CB4 /* HelpSplitViewController.swift */; };
 		E3C63A6F21A94C49001B8CB4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C63A6E21A94C49001B8CB4 /* Model.swift */; };
-		E3C63A7121A94C50001B8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7021A94C50001B8CB4 /* Assets.xcassets */; };
 		E3C63A7321A94C80001B8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7221A94C80001B8CB4 /* Main.storyboard */; };
 		E3C63A7621A94C92001B8CB4 /* system_prefs_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */; };
 		E3C63A7E21A94CE7001B8CB4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C63A7D21A94CE7001B8CB4 /* Cocoa.framework */; };
@@ -60,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E309ECE821AA90560091219D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = key_bindings_demo.mov; sourceTree = "<group>"; };
 		E3C03A2921A95D5D0025C8F1 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		E3C03A2B21A960E20025C8F1 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
@@ -76,7 +77,6 @@
 		E3C63A6921A94C3B001B8CB4 /* HelpSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSourceViewController.swift; sourceTree = "<group>"; };
 		E3C63A6A21A94C3B001B8CB4 /* HelpSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSplitViewController.swift; sourceTree = "<group>"; };
 		E3C63A6E21A94C49001B8CB4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		E3C63A7021A94C50001B8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SpellChecker/SpellChecker/Assets.xcassets; sourceTree = "<group>"; };
 		E3C63A7221A94C80001B8CB4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E3C63A7521A94C92001B8CB4 /* system_prefs_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = system_prefs_demo.mov; sourceTree = "<group>"; };
 		E3C63A7B21A94CE7001B8CB4 /* Comment Spell Checker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comment Spell Checker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 				E3C63A6521A94C28001B8CB4 /* HelpController.swift */,
 				E3C63A6E21A94C49001B8CB4 /* Model.swift */,
 				E3C63A6721A94C3B001B8CB4 /* View */,
-				E3C63A7021A94C50001B8CB4 /* Assets.xcassets */,
+				E309ECE821AA90560091219D /* Assets.xcassets */,
 				E3C63A7221A94C80001B8CB4 /* Main.storyboard */,
 				E3C63A7421A94C92001B8CB4 /* Resources */,
 				E3C63A4E21A94BE8001B8CB4 /* Info.plist */,
@@ -309,7 +309,7 @@
 				E3C63A7621A94C92001B8CB4 /* system_prefs_demo.mov in Resources */,
 				E3C03A2C21A960E20025C8F1 /* demo.mov in Resources */,
 				E3C63A7321A94C80001B8CB4 /* Main.storyboard in Resources */,
-				E3C63A7121A94C50001B8CB4 /* Assets.xcassets in Resources */,
+				E309ECE921AA90560091219D /* Assets.xcassets in Resources */,
 				E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
