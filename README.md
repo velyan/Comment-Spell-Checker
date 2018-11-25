@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="" alt="Comment Spell Checker" width="175">
+  <img src="https://github.com/velyan/Comment-Spell-Checker/blob/master/CheckAppIcon.png" alt="Comment Spell Checker" width="175">
   <br> Comment Spell Checker <br>
 </h1>
 
