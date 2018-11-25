@@ -24,7 +24,7 @@ An Xcode Source Editor extension that runs spell check and auto correct on your 
 *Either:*
 
 - Get it on the App Store (soon)
-- Download the [compiled app]()
+- Download the [compiled app](https://github.com/velyan/Comment-Spell-Checker/releases/tag/v1.0.0)
 - Compile from source
 
 *Then:*
