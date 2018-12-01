@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E309ECE921AA90560091219D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E309ECE821AA90560091219D /* Assets.xcassets */; };
+		E310467421B24AB500ABAC3B /* ExternalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E310467321B24AB500ABAC3B /* ExternalLinks.swift */; };
 		E364A51E21AAA51A00B501EE /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E364A51D21AAA51A00B501EE /* demo.mov */; };
 		E3C03A2821A95AF90025C8F1 /* key_bindings_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */; };
 		E3C03A2A21A95D5D0025C8F1 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C03A2921A95D5D0025C8F1 /* Demo.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		E309ECE821AA90560091219D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E310467321B24AB500ABAC3B /* ExternalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalLinks.swift; sourceTree = "<group>"; };
 		E364A51D21AAA51A00B501EE /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
 		E3C03A2721A95AF90025C8F1 /* key_bindings_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = key_bindings_demo.mov; sourceTree = "<group>"; };
 		E3C03A2921A95D5D0025C8F1 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				E3C63A4721A94BE7001B8CB4 /* ViewController.swift */,
 				E3C63A6521A94C28001B8CB4 /* HelpController.swift */,
 				E3C63A6E21A94C49001B8CB4 /* Model.swift */,
+				E310467321B24AB500ABAC3B /* ExternalLinks.swift */,
 				E3C63A6721A94C3B001B8CB4 /* View */,
 				E309ECE821AA90560091219D /* Assets.xcassets */,
 				E3C63A7221A94C80001B8CB4 /* Main.storyboard */,
@@ -337,6 +340,7 @@
 			files = (
 				E3C63A6F21A94C49001B8CB4 /* Model.swift in Sources */,
 				E3C63A6D21A94C3B001B8CB4 /* HelpSplitViewController.swift in Sources */,
+				E310467421B24AB500ABAC3B /* ExternalLinks.swift in Sources */,
 				E3C63A4821A94BE7001B8CB4 /* ViewController.swift in Sources */,
 				E3C63A6C21A94C3B001B8CB4 /* HelpSourceViewController.swift in Sources */,
 				E3C63A6B21A94C3B001B8CB4 /* HelpContentViewController.swift in Sources */,
@@ -503,7 +507,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker/Comment_Spell_Checker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell Checker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,7 +527,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker/Comment_Spell_Checker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell Checker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,7 +546,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell CheckerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,7 +567,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell CheckerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,7 +587,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker Extension/Comment_Spell_Checker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell Checker Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,7 +607,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Comment Spell Checker Extension/Comment_Spell_Checker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4Q28357BSU;
+				DEVELOPMENT_TEAM = L4ALPHW89P;
 				INFOPLIST_FILE = "Comment Spell Checker Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

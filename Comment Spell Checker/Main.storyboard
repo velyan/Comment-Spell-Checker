@@ -16,14 +16,14 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Spell Comment Spell Comment" systemMenu="apple" id="uQy-DD-JDr" userLabel="Spell Checker">
                                     <items>
-                                        <menuItem title="About Mark" id="5kV-Vb-QxS" userLabel="About Spell Checker">
+                                        <menuItem title="About Comment Spell Checker" id="5kV-Vb-QxS" userLabel="About Spell Checker">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Hide Mark" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Comment Spell Checker" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -41,7 +41,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Mark" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Comment Spell Checker" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -78,13 +78,16 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="About" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Tweet Me" id="PXU-eK-umg">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <binding destination="Voe-Tx-rLC" name="target" keyPath="self" id="K7Q-b7-u15">
-                                                    <dictionary key="options">
-                                                        <string key="NSSelectorName">openHelp</string>
-                                                    </dictionary>
-                                                </binding>
+                                                <action selector="helpMenuTwitterItemSelectedWithSender:" target="Voe-Tx-rLC" id="RaV-Ch-d7W"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Comment Spell Checker on GitHub" id="ulk-jB-gGS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="helpMenuGitHubItemSelectedWithSender:" target="Voe-Tx-rLC" id="e6H-Ub-Z0E"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -105,7 +108,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Help" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Comment Spell Checker" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="407" y="509" width="600" height="400"/>
