@@ -7,7 +7,7 @@
 
 
 
-![min](https://img.shields.io/badge/min-macOS%2010.14-lightgrey.svg)
+![min](https://img.shields.io/badge/min-macOS%2010.13-lightgrey.svg)
 
 An Xcode Source Editor extension that runs spell check and auto correct on your code comments.
 
