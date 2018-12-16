@@ -14,12 +14,12 @@ enum SpellCheckerError: Error {
     case unsupportedSource
 }
 
-class SourceEditorCommand: NSObject, XCSourceEditorCommand {
+class SpellCheckCommentsCommand: NSObject, XCSourceEditorCommand {
     
     func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
         
         let buffer = invocation.buffer
-        let indices = Parser.parse(buffer.lines as! [String])
+        let indices = Parser.parseComments(buffer.lines as! [String])
         
         let spellChecker = NSSpellChecker.shared
         let tag = NSSpellChecker.uniqueSpellDocumentTag()

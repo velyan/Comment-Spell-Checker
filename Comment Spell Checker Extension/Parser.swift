@@ -13,6 +13,9 @@ private enum Pattern {
     static let commentLine = "(\\/\\/|\\/\\/\\/)(.*)"
     static let commentStart = "(\\/\\*)(.*)"
     static let commentEnd =  "(\\*\\/)"
+    static let markdownLink = "(.*\\[.+\\](?=\\(.*\\)+))|((?<=\\)).*)"
+    static let markdownText = ".*"
+
 }
 
 private extension NSRegularExpression {
@@ -25,7 +28,7 @@ private extension NSRegularExpression {
 
 enum Parser {
     
-    static func parse(_ buffer: [String]) -> IndexSet {
+    static func parseComments(_ buffer: [String]) -> IndexSet {
         guard let lineRegex = try? NSRegularExpression(pattern: Pattern.commentLine,
                                                        options: .caseInsensitive),
             let startRegex = try? NSRegularExpression(pattern: Pattern.commentStart,
@@ -52,5 +55,31 @@ enum Parser {
         
         
         return indices
+    }
+    
+    static func parseMarkDown(_ buffer: [String]) -> [Int: [NSRange]] {
+        var result: [Int: [NSRange]] = [:]
+        guard let escapingLinkMatches = try? NSRegularExpression(pattern: Pattern.markdownLink,
+                    
+                                                         options: .caseInsensitive),
+            let textMatches = try? NSRegularExpression(pattern: Pattern.markdownText,
+                                                       
+                                                       options: .caseInsensitive) else { return result }
+     
+        for (idx,line) in buffer.enumerated() {
+            let matches = escapingLinkMatches.matches(in: line)
+            if !matches.isEmpty {
+                result[idx] = matches.map{ $0.range }
+                print("link \(line)")
+            } else {
+                let textMatches = textMatches.matches(in: line)
+                if !textMatches.isEmpty {
+                    result[idx] = textMatches.map{ $0.range }
+                    print("text \(line)")
+                }
+            }
+        }
+        
+        return result
     }
 }
