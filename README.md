@@ -7,7 +7,7 @@
 
 
 
-![min](https://img.shields.io/badge/min-macOS%2010.14-lightgrey.svg)
+![min](https://img.shields.io/badge/min-macOS%2010.13-lightgrey.svg)
 
 An Xcode Source Editor extension that runs spell check and auto correct on your code comments.
 
@@ -24,7 +24,7 @@ An Xcode Source Editor extension that runs spell check and auto correct on your 
 *Either:*
 
 - Get it on the [App Store](https://itunes.apple.com/au/app/comment-spell-checker/id1444541990?mt=12)
-- Download the [compiled app](https://github.com/velyan/Comment-Spell-Checker/releases/download/v1.0.0/Comment.Spell.Checker.app.zip)
+- Download the [compiled app](https://github.com/velyan/Comment-Spell-Checker/releases/download/v1.0.2/Comment.Spell.Checker.app.zip)
 - Compile from source
 
 *Then:*
